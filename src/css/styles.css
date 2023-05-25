@@ -1,10 +1,36 @@
 :root {
-    --black-color: rgba(17,17,17,1);
-    --violet-color: rgba(30,24,35,1);
-    --accent-color: rgba(253,146,34,1);
-    --dark-white-color: rgba(250,250,250,1);
+    --black-color: #111111;
+    --violet-color: #1e1823;
+    --accent-color: #fd9222;
+    --dark-white-color: #fafafa;
     --white-color: #ffffff;
     --button-bg-hover: #FCF1E0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @font-face {
@@ -42,3 +68,25 @@
 @import url('./subscribe.css');
 @import url('./top-sellers.css');
 @import url('./unique-components.css');
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .container {
+        width: calc(375px - 40px);
+    }
+}
+  
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: calc(768px - 64px);
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    .container {
+        width: calc(1200px - 64px);
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
