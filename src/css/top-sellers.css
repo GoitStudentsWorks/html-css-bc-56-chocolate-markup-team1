@@ -1,0 +1,14 @@
+.ppr{
+outline: 1px bold red;
+color: brown;
+background-color: black;
+}
+.qqq{
+    background-color: black;
+}
+
+@media screen and (min-width: 768px){
+    
+
+
+}
