@@ -52,6 +52,12 @@
 
 .new-chocolate-modal-close-icon {
     stroke: var(--white-color);
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.new-chocolate-modal-close-button:hover .new-chocolate-modal-close-icon,
+.new-chocolate-modal-close-button:focus .new-chocolate-modal-close-icon {
+    stroke: var(--accent-color);
 }
 
 .new-chocolate-modal-content {
