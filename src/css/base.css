@@ -31,7 +31,6 @@ img {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    outline: 10px solid yellow;
 }
   
 @media screen and (min-width: 768px) and (max-width: 1199px) {
