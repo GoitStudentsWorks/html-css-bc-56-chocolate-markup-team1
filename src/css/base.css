@@ -25,6 +25,10 @@ img {
     display: block;
     width: 100%;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black-color);
+}
 
 .container {
     width: 100%;
