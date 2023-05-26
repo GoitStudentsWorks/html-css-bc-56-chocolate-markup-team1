@@ -31,7 +31,30 @@ img {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+    outline: 10px solid yellow;
 }
+
+
+}
+  
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        width: calc(768px - 64px);
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    .container {
+        width: calc(1200px - 64px);
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+    
+
 
 /* Защитить папку main */
 /* Файл для шрифтов */
