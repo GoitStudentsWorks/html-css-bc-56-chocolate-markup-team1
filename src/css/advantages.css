@@ -19,7 +19,7 @@
 }
 .advantages-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
 }
 .advantages-item {
@@ -80,6 +80,7 @@
   }
   .advantages-list {
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 32px;
     margin-top: 50px;
   }
