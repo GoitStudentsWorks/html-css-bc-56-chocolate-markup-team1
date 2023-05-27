@@ -92,17 +92,15 @@
 
 .how-its-frame-blc {
   overflow: hidden;
-  position: absolute;
-  width: 335;
-  height: 500;
-}
-
-.how-its-frame-blc {
+  border-radius: 15px;
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
+}
+
+.how-its-frame-blc {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
