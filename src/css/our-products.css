@@ -1,0 +1,49 @@
+.our-product-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: -0.03em;
+  margin-bottom: 32px;
+}
+
+.our-product-title-yellow {
+  color: #fd9222;
+}
+
+.our-product-swiper-slide {
+  text-align: center;
+}
+
+.our-product-img {
+  width: 230px;
+  margin: 0 auto 8px;
+}
+
+.our-product-swiper {
+}
+.wrapper {
+}
+.list {
+}
+.our-product-swiper-wrapper {
+}
+.item {
+}
+
+.our-product-name-chocolate {
+  margin-bottom: 2px;
+}
+.our-product-text-chocolate {
+  margin-bottom: 18px;
+}
+
+.our-product-item {
+}
+
+.our-product-omg-price {
+  background: #fafafa;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  padding: 8px 20px;
+}
