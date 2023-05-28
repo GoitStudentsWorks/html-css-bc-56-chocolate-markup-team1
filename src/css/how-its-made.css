@@ -1,0 +1,222 @@
+:root {
+  --black-color: #111111;
+  --violet-color: #1e1823;
+  --accent-color: #fd9222;
+  --dark-white-color: #fafafa;
+  --white-color: #ffffff;
+  --button-bg-hover: #fcf1e0;
+}
+
+.how-its-made > .container {
+  margin-top: 72px;
+}
+
+.how-its-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin-bottom: 32px;
+}
+
+.how-its-mob-img {
+}
+
+.how-its-title-yelow {
+  color: var(--accent-color);
+}
+
+.how-its-img {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../img/how-its-mob-img.jpg);
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/how-its-mob-img-2x.jpg);
+  }
+}
+
+.how-its-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111111;
+  padding-top: 32px;
+  margin-bottom: 20px;
+}
+
+.how-its-list {
+  margin-bottom: 72px;
+}
+
+.how-its-list-item {
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  display: flex;
+  margin-bottom: 18px;
+  padding-left: 12px;
+}
+
+.how-its-list-item::before {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #4c4c4c;
+  border-radius: 50px;
+  left: 0px;
+  top: 5px;
+}
+
+.how-its-img-wrapper {
+  position: relative;
+}
+
+.how-its-frame-blc {
+  overflow: hidden;
+  border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.how-its-frame-blc {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: calc(768px - 64px);
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .how-its-img {
+    width: 614px;
+    height: 400px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../img/how-its-tablet-img.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/how-its-tablet-img-2x.jpg);
+    }
+  }
+
+  .how-its-list {
+    margin-bottom: 100px;
+  }
+
+  .how-its-text {
+    padding: top 32px;
+    padding-left: 32px;
+    margin-bottom: 28px;
+    width: 360px;
+  }
+
+  .how-its-list-item {
+    padding-left: 48px;
+    margin-bottom: 24px;
+    width: 464px;
+  }
+
+  .how-its-list-item::before {
+    left: 38px;
+    top: 5px;
+  }
+
+  .how-its-list-point {
+    left: 38px;
+    top: 5px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: calc(1200px - 64px);
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .how-its-title {
+    margin-bottom: 50px;
+  }
+
+  .how-its-img {
+    width: 600px;
+    height: 400px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url(../img/how-its-desktop-img.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/how-its-desktop-img-2x.jpg);
+    }
+  }
+
+  .how-its-wrapper {
+    display: flex;
+    margin-bottom: 128px;
+  }
+
+  .how-its-list {
+    width: 400px;
+    margin-left: 20px;
+  }
+
+  .how-its-text {
+    padding-top: 32px;
+    padding-left: 32px;
+    margin-bottom: 28px;
+  }
+
+  .how-its-list-item {
+    padding-left: 32px;
+    margin-bottom: 24px;
+  }
+
+  .how-its-list-item::before {
+    left: 20px;
+    top: 5px;
+  }
+  .how-its-list-point {
+    left: 20px;
+    top: 5px;
+  }
+}
