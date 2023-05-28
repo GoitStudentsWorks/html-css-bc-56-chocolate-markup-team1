@@ -30,7 +30,8 @@ a {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -44,6 +45,13 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
@@ -60,6 +68,13 @@ body {
     padding-right: 32px;
   }
 }
+
+/* Добавити адаптив на 375  width 375*/
+/* @media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+} */
 
 /* Защитить папку main */
 /* Файл для шрифтов */
