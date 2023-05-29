@@ -37,6 +37,7 @@ img {
 body {
   font-family: 'Montserrat';
   color: var(--black-color);
+  background-color: #e2e2e2;
 }
 
 .container {
