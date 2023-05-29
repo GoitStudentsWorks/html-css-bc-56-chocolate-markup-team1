@@ -114,7 +114,7 @@
     transform: rotate(90deg);
     border-radius: 2px;
     top: 150px;
-    left: 268px;
+    left: 278px;
   }
   .advantages-item:last-child::after{
     width: 0;
