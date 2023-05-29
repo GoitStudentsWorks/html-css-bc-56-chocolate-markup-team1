@@ -1,5 +1,6 @@
 .unique {
   padding: 72px 0;
+  background-color: #e2e2e2;
 }
 .unique-container {
   display: block;
@@ -29,7 +30,18 @@
   flex-direction: column;
   gap: 20px;
 }
+.unique-text-span {
+  color: var(--accent-color);
+}
+.unique-picture{
+border-radius: 15%;
+border-color: var(--accent-color);
+}
 
+.unique-image{
+  border-radius: 15%;
+  border-color: var(--accent-color);
+}
 .unique-item:hover .unique-overlay {
   transform: translateY(0);
 
