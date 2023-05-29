@@ -30,11 +30,14 @@
   flex-direction: column;
   gap: 20px;
 }
-.unique-picture{
-  border-radius: 15%;
 .unique-text-span {
-  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
+.unique-picture{
+border-radius: 15%;
+border-color: var(--accent-color);
+}
+
 .unique-image{
   border-radius: 15%;
   border-color: var(--accent-color);
