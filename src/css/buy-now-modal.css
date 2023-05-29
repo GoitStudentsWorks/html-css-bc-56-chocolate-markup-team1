@@ -171,6 +171,14 @@ textarea {
   display: block;
   width: 109px;
   height: 41px;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  background-color: var(--button-bg-hover);
+  color: var(--accent-color);
 }
 
 .buy-now-close-btn {
@@ -178,12 +186,20 @@ textarea {
   background-color: transparent;
   padding: 0;
   position: absolute;
+  cursor: pointer;
   right: 24px;
   top: 24px;
 }
 .icon {
   stroke: currentColor;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.buy-now-close-btn:hover .icon,
+.buy-now-close-btn:focus .icon {
+    stroke: var(--accent-color);
+}
+
 
 .flag-code {
   width: 74px;
