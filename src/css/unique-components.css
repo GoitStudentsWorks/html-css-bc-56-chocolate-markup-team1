@@ -87,10 +87,6 @@ color: var(--black-color);
   letter-spacing: 0.02em;
   color: var(--black-color);
 }
-.uniqui-picture {
-}
-.unique-image {
-}
 
 @media screen and (min-width: 768px) {
   .unique {
@@ -120,6 +116,18 @@ color: var(--black-color);
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
+  } 
+  .unique-m-ch{
+order: -2;
+  }
+  .uniqui-m{
+order: 1;
+  }
+  .unique-n{
+order: 2;
+  }
+  .unique-ch{
+order: -1;
   }
   .unique-item {
     width: calc((100% - 32px) / 2);
@@ -137,7 +145,19 @@ color: var(--black-color);
  }
  .unique-text{
     margin: 0 325px 50px;
- }
+ } 
+ .unique-m-ch{
+  order: -1;
+    }
+    .uniqui-m{
+  order: 2;
+    }
+    .unique-n{
+  order: 3;
+    }
+    .unique-ch{
+  order: 4;
+    }
 
   .unique-item {
     width: calc((100% - 96px) / 4);
