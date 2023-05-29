@@ -3,7 +3,7 @@
 }
 .unique-container {
   display: block;
-  width: 100%;
+ 
 }
 .unique-title {
   font-weight: 600;
@@ -29,11 +29,10 @@
   flex-direction: column;
   gap: 20px;
 }
-.unique-item{
 
-}
-.unique-item-overlay:hover.unique-overlay {
+.unique-item:hover .unique-overlay {
   transform: translateY(0);
+
 }
 .unique-item-overlay{
   
@@ -50,7 +49,7 @@
   padding: 28px;
   background-color: #ffffff;
   border-radius: 15px;
-  translateY: 100%;
+  transform: translateY(100%);
 }
 .unique-overlay-title{
   font-weight: 600;
@@ -143,4 +142,7 @@ color: #111111;
   .unique-item {
     width: calc((100% - 96px) / 4);
   }
+  .unique-overlay {
+    padding: 20px;
+   }
 }
