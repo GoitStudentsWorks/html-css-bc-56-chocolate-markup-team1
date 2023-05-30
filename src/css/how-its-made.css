@@ -7,8 +7,13 @@
   --button-bg-hover: #fcf1e0;
 }
 
+.how-its-made {
+  background-color: #e2e2e2;
+}
+
 .how-its-made > .container {
   margin-top: 72px;
+  padding-bottom: 128px;
 }
 
 .how-its-title {
@@ -20,6 +25,12 @@
   text-transform: uppercase;
   color: var(--black-color);
   margin-bottom: 32px;
+}
+
+.how-its-text-list {
+  background-color: #ffffff;
+  border-radius: 15px;
+  align-items: center;
 }
 
 .how-its-mob-img {
@@ -58,12 +69,12 @@
   font-size: 18px;
   line-height: 1.33;
   color: #111111;
-  padding-top: 32px;
-  margin-bottom: 20px;
+  padding: 20px 14px;
+  width: 320px;
 }
 
 .how-its-list {
-  margin-bottom: 72px;
+  padding-bottom: 34px;
 }
 
 .how-its-list-item {
@@ -71,9 +82,8 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.02em;
-  display: flex;
   margin-bottom: 18px;
-  padding-left: 12px;
+  padding-left: 30px;
 }
 
 .how-its-list-item::before {
@@ -83,7 +93,7 @@
   height: 6px;
   background: #4c4c4c;
   border-radius: 50px;
-  left: 0px;
+  left: 14px;
   top: 5px;
 }
 
@@ -136,22 +146,17 @@
     padding: top 32px;
     padding-left: 32px;
     margin-bottom: 28px;
-    width: 380px;
+    width: 396px;
   }
 
   .how-its-list-item {
     padding-left: 48px;
     margin-bottom: 24px;
-    width: 464px;
+    width: 510px;
   }
 
   .how-its-list-item::before {
-    left: 38px;
-    top: 5px;
-  }
-
-  .how-its-list-point {
-    left: 38px;
+    left: 32px;
     top: 5px;
   }
 }
@@ -189,7 +194,7 @@
 
   .how-its-wrapper {
     display: flex;
-    margin-bottom: 128px;
+    justify-content: center;
   }
 
   .how-its-list {
@@ -197,23 +202,26 @@
     margin-left: 20px;
   }
 
+  .how-its-text-list {
+    margin-left: 20px;
+    width: 516px;
+  }
+
   .how-its-text {
     padding-top: 32px;
-    padding-left: 32px;
+    padding-left: 48px;
     margin-bottom: 28px;
+      width: 406px;
   }
 
   .how-its-list-item {
     padding-left: 32px;
     margin-bottom: 24px;
+   padding-right: 32px;
   }
 
   .how-its-list-item::before {
-    left: 20px;
-    top: 5px;
-  }
-  .how-its-list-point {
-    left: 20px;
+    left: 32px;
     top: 5px;
   }
 }

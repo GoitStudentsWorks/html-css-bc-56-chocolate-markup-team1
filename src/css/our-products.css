@@ -1,5 +1,9 @@
 .our-product {
   margin-bottom: 72px;
+  background-color: #e2e2e2;
+}
+
+.our-product > .container {
 }
 
 .our-product-title {
