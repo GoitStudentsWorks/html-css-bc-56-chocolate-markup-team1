@@ -1,3 +1,7 @@
+.hero {
+  background-color: var(--dark-white-color);
+}
+
 .hero-container {
   background-color: var(--button-bg-hover);
   padding-top: 395px;
@@ -35,10 +39,6 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.hero-content {
-  max-width: 295px;
 }
 
 .hero-description {
@@ -148,8 +148,8 @@
 
 @media screen and (min-width: 375px) {
   .hero-button-buy {
-    min-width: 120px;
-    min-height: 41px;
+    max-width: 120px;
+    max-height: 41px;
   }
 
   .hero-button-made {
@@ -177,10 +177,6 @@
     .hero-container {
       background-image: url(../img/chocolate-covered-cocoa-powder-tablet@2x.jpg);
     }
-  }
-
-  .hero-content {
-    max-width: 624px;
   }
 
   .hero-description {
@@ -234,10 +230,6 @@
     (min-resolution: 2dppx) {
     .hero-container {
       background-image: url(../img/chocolate-covered-cocoa-powder@2x.jpg);
-    }
-
-    .hero-content {
-      max-width: 1056px;
     }
   }
 }
