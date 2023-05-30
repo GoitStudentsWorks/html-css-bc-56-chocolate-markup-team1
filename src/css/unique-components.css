@@ -38,10 +38,9 @@
 }
 
 .unique-wrapper{
-max-width: 335px;
-height: 270px;
-border-radius: 15px;
-position: relative;
+  height: 270px;
+  border-radius: 15px;
+  position: relative;
 }
 .unique-wrapper-m-ch {
   background-color: var(--accent-color);
