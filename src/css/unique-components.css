@@ -140,6 +140,7 @@ color: var(--black-color);
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: var(--black-color);
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -237,4 +238,12 @@ order: -1;
       width: 206px;
       height: 160px;
     }
+    .unique-overlay-text{
+      height: 162px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  .unique-overlay-text-ch{
+    height: 140px;
+  }
 }
