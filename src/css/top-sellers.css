@@ -1,3 +1,7 @@
+.top-sellers {
+  padding-bottom: 72px;
+}
+
 .top-title-two {
   font-weight: 600;
   font-size: 20px;
@@ -70,6 +74,10 @@
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 768px) {
+  .top-sellers {
+    padding-bottom: 0;
+  }
+
   .top-sellers-container {
     width: 100%;
   }
