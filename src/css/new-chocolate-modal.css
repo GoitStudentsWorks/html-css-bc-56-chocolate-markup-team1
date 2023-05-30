@@ -24,16 +24,23 @@
 }
 
 .new-chocolate-modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 538px;
-  min-height: 412px;
-  overflow: hidden;
-  background-color: #fafafa;
-  border-radius: 15px;
-  transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 538px;
+    min-height: 412px;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+    .new-chocolate-modal {
+        width: 538px;
+        height: 412px;
+    }
 }
 
 .new-chocolate-modal-backdrop.is-hidden .new-chocolate-modal {
@@ -61,19 +68,28 @@
 }
 
 .new-chocolate-modal-content {
-  padding: 40px;
+    padding: 40px;
 }
 
 .new-chocolate-modal-text {
-  width: 298px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  color: var(--black-color);
+    width: 298px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+@media (min-width: 768px) {
+    .new-chocolate-modal-text {
+        width: 298px;
+        font-size: 24px;
+        line-height: 1.17;
+        color: var(--black-color);
+    }
 }
 
 .new-chocolate-modal-text-accent {
@@ -81,9 +97,9 @@
 }
 
 .new-chocolate-modal-form {
-  display: flex;
-  gap: 8px;
-  margin-top: 28px;
+    display: flex;
+    gap: 8px;
+    margin-top: 28px;
 }
 .new-chocolate-modal-input {
   padding: 14px 24px;
@@ -99,6 +115,13 @@
   letter-spacing: -0.02em;
   color: var(--black-color);
   background-color: transparent;
+}
+
+@media (max-width: 767px) {
+    .new-chocolate-modal-input {
+        font-size: 14px;
+        line-height: 1.21;
+    }
 }
 
 .new-chocolate-modal-input::placeholder {

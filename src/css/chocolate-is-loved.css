@@ -1,5 +1,11 @@
+.general-container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
 .chocolate-is-loved-section {
-  background-color: #fafafa;
+  background-color: var(--dark-white-color);
   padding-bottom: 128px;
   padding-top: 0;
   padding-left: 0;
@@ -17,20 +23,27 @@
   text-transform: uppercase;
   color: var(--black-color);
   padding-bottom: 74px;
-  margin-top: 72px;
+  margin-top: 0;
 }
 
 .chocolate-is-loved-span {
   color: var(--accent-color);
 }
 
+.chocolate-is-loved-slider {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .chocolate-is-loved-cnt {
   position: relative;
-  width: 335px;
   text-align: center;
   margin-right: 28px;
+  margin-bottom: 33px;
   height: 240px;
-  background-color: #fafafa;
+  background-color: var(--dark-white-color);
+  margin-bottom: 33px;
 }
 
 .chocolate-is-loved-cnt > img {
@@ -131,7 +144,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .chocolate-is-loved-slider .slick-dots li {
