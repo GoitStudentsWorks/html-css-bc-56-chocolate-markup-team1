@@ -39,7 +39,7 @@ border-color: var(--accent-color);
 }
 
 .unique-wrapper{
-width: 335px;
+max-width: 335px;
 height: 270px;
 border-radius: 15px;
 position: relative;
@@ -141,6 +141,11 @@ color: var(--black-color);
   letter-spacing: -0.02em;
   color: var(--black-color);
   
+}
+@media screen and (min-width: 375px) {
+  .unique-wrapper{
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
