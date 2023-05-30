@@ -83,15 +83,10 @@
 
 .how-its-frame-blc {
   border-radius: 15px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
-    width: calc(768px - 64px);
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .how-its-list {
     padding-left: 16px;
   }
@@ -116,12 +111,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    width: calc(1200px - 64px);
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .how-its-frame-blc {
     width: 600px;
   }
@@ -147,7 +136,9 @@
     margin-bottom: 24px;
   }
 
-  .how-its-list-item:last-child {margin: 0;}
+  .how-its-list-item:last-child {
+    margin: 0;
+  }
 
   .how-its-list-item::before {
     left: -16px;
