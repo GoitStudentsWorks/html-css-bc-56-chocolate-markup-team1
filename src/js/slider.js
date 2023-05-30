@@ -12,5 +12,25 @@ $(document).ready(function () {
     pauseOnDotsHover: true,
     waitForAnimate: false,
     variableWidth: true,
+    responsive: [
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
   });
 });
