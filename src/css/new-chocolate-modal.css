@@ -27,8 +27,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 538px;
-    min-height: 412px;
+    width: 311px;
     overflow: hidden;
     background-color: #FAFAFA;
     border-radius: 15px;
@@ -68,7 +67,14 @@
 }
 
 .new-chocolate-modal-content {
+    padding: 32px 24px;
+}
+
+@media (min-width: 768px) {
+  .new-chocolate-modal-content {
     padding: 40px;
+}
+
 }
 
 .new-chocolate-modal-text {
@@ -76,8 +82,8 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 1.17;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--black-color);
@@ -100,6 +106,7 @@
     display: flex;
     gap: 8px;
     margin-top: 28px;
+    position: relative;
 }
 .new-chocolate-modal-input {
   padding: 14px 24px;
@@ -133,6 +140,7 @@
 }
 
 .new-chocolate-modal-button {
+  display: none;
   background: var(--accent-color);
   border-radius: 100px;
   font-family: 'Montserrat', sans-serif;
@@ -151,4 +159,32 @@
 .new-chocolate-modal-button:focus {
   background-color: var(--button-bg-hover);
   color: var(--accent-color);
+}
+
+.new-chocolate-modal-button2 {
+  background: var(--accent-color);
+  border-radius: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: var(--white-color);
+  border: none;
+  padding: 17px 33px 18px 32px;
+  cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .new-chocolate-modal-button {
+    display: block;
+  }
+
+  .new-chocolate-modal-button2 {
+    display: none;
+  }
 }
