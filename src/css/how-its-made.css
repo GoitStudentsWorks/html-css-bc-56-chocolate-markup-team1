@@ -7,8 +7,13 @@
   --button-bg-hover: #fcf1e0;
 }
 
+.how-its-made {
+  background-color: #fafafa;
+}
+
+
 .how-its-made > .container {
-  margin-top: 72px;
+  padding-bottom: 128px;
 }
 
 .how-its-title {
@@ -22,6 +27,21 @@
   margin-bottom: 32px;
 }
 
+.how-its-wrapper {
+  gap: 20px;
+}
+
+.how-its-text-list {
+  background-color: #ffffff;
+  border-radius: 15px;
+  align-items: center;
+  padding: 20px 14px;
+}
+
+.how-its-list {
+  padding-left: 16px;
+}
+
 .how-its-mob-img {
 }
 
@@ -29,41 +49,13 @@
   color: var(--accent-color);
 }
 
-.how-its-img {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url(../img/how-its-mob-img.jpg);
-  border-radius: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 20px;
-}
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../img/how-its-mob-img-2x.jpg);
-  }
-}
-
-.how-its-text {
+.how-its-text-title {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
   color: #111111;
-  padding-top: 32px;
-  margin-bottom: 20px;
-}
-
-.how-its-list {
-  margin-bottom: 72px;
+  max-width: 350px;
 }
 
 .how-its-list-item {
@@ -71,9 +63,7 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.02em;
-  display: flex;
   margin-bottom: 18px;
-  padding-left: 12px;
 }
 
 .how-its-list-item::before {
@@ -83,137 +73,88 @@
   height: 6px;
   background: #4c4c4c;
   border-radius: 50px;
-  left: 0px;
+  left: -16px;
   top: 5px;
 }
 
 .how-its-img-wrapper {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .how-its-frame-blc {
-  overflow: hidden;
   border-radius: 15px;
-  position: absolute;
   width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
-    width: calc(768px - 64px);
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  .how-its-img {
-    width: 614px;
-    height: 400px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url(../img/how-its-tablet-img.jpg);
-  }
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(../img/how-its-tablet-img-2x.jpg);
-    }
-  }
-
   .how-its-list {
-    margin-bottom: 100px;
+    padding-left: 16px;
   }
 
-  .how-its-text {
-    padding: top 32px;
+  .how-its-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .how-its-mate > .container {
+    width: 614;
+  }
+
+  .how-its-frame-blc {
+    width: 100%;
+  }
+
+  .how-its-text-list {
+    padding-top: 32px;
     padding-left: 32px;
-    margin-bottom: 28px;
-    width: 380px;
   }
 
-  .how-its-list-item {
-    padding-left: 48px;
-    margin-bottom: 24px;
-    width: 464px;
+  .how-its-text-title {
+    margin-bottom: 28px;
   }
 
   .how-its-list-item::before {
-    left: 38px;
-    top: 5px;
-  }
-
-  .how-its-list-point {
-    left: 38px;
+    left: -16px;
     top: 5px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    width: calc(1200px - 64px);
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
-  .how-its-title {
-    margin-bottom: 50px;
-  }
-
-  .how-its-img {
+  .how-its-frame-blc {
     width: 600px;
-    height: 400px;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)
-      ),
-      url(../img/how-its-desktop-img.jpg);
   }
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(../img/how-its-desktop-img-2x.jpg);
-    }
+  .how-its-text-title {
+    margin-bottom: 28px;
   }
 
   .how-its-wrapper {
     display: flex;
-    margin-bottom: 128px;
+    justify-content: center;
   }
 
   .how-its-list {
-    width: 400px;
-    margin-left: 20px;
+    padding-left: 16px;
   }
 
-  .how-its-text {
-    padding-top: 32px;
-    padding-left: 32px;
-    margin-bottom: 28px;
+  .how-its-text-list {
+    padding: 32px;
   }
 
-  .how-its-list-item {
-    padding-left: 32px;
+  .how-its-list-item:not(:last-child) {
     margin-bottom: 24px;
   }
 
+  .how-its-list-item:last-child {
+    margin: 0;
+  }
+
   .how-its-list-item::before {
-    left: 20px;
+    left: -16px;
     top: 5px;
   }
-  .how-its-list-point {
-    left: 20px;
-    top: 5px;
+  .how-its-img-wrapper {
+    margin: 0;
   }
 }

@@ -1,10 +1,3 @@
-.container {
-  width: 375px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .top-title-two {
   font-weight: 600;
   font-size: 20px;
@@ -72,15 +65,13 @@
 }
 .buy-now-btn:hover,
 .buy-now-btn:focus {
-    background-color: var(--button-bg-hover);
-    color: var(--accent-color);
+  background-color: var(--button-bg-hover);
+  color: var(--accent-color);
 }
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .top-sellers-container {
+    width: 100%;
   }
 
   .top-products {
@@ -126,10 +117,8 @@
 
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .top-sellers-container {
+    width: 1136px;
   }
 
   .top-card-thtree {
@@ -141,9 +130,5 @@
   }
 
   .top-sellers-img {
-    width: 368px;
-    height: 464px;
   }
-
-  
 }
