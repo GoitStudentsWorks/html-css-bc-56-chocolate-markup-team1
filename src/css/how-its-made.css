@@ -91,6 +91,15 @@
     padding-left: 16px;
   }
 
+  .how-its-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .how-its-mate > .container {
+    width: 614;
+  }
+
   .how-its-frame-blc {
     width: 100%;
   }
