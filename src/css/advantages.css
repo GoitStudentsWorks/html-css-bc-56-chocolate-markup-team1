@@ -4,6 +4,7 @@
   background-color: var(--violet-color);
   display: flex;
 }
+
 .advantages-container {
   display: flex;
   flex-direction: column;
@@ -84,7 +85,6 @@
     gap: 32px;
   }
 
-
   .advantages-item {
     width: calc((100% - 32px) / 2);
     margin: 0;
@@ -92,7 +92,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-
   .advantages-container {
     max-width: 1200px;
     display: flex;
@@ -116,7 +115,7 @@
     top: 150px;
     left: 240px;
   }
-  
+
   .advantages-item:last-child::after {
     width: 0;
   }
