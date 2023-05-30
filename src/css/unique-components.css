@@ -1,6 +1,6 @@
 .unique {
   padding: 72px 0;
-  background-color: #e2e2e2;
+  background-color: #fafafa;
 }
 .unique-container {
   display: block;
@@ -38,9 +38,51 @@ border-radius: 15%;
 border-color: var(--accent-color);
 }
 
+.unique-wrapper{
+width: 335px;
+height: 270px;
+border-radius: 15px;
+position: relative;
+}
+.unique-wrapper-m-ch{
+  background-color: var(--accent-color);
+}
+.unique-wrapper-m{
+  background-color: var(--white-color);
+  border: 1px solid var(--accent-color);
+}
+.unique-wrapper-n{
+  background-color: #1e1823;
+}
+.unique-wrapper-ch{
+  background-color: var(--white-color);
+  border: 1px solid var(--accent-color);
+}
+.unique-picture{
+width: 224px;
+height: 171px;
+margin: 0 55px 25px 56px;
+padding-top: 28px;
+}
 .unique-image{
-  border-radius: 15%;
-  border-color: var(--accent-color);
+  margin: 0 55px 25px 56px;
+  padding-top: 28px;
+}
+.unique-wrapper-title{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 28px 0 179px 28px;
+
+}
+.unique-black{
+color: var(--black-color);
+}
+.unique-white{
+  color: var(--white-color);
 }
 .unique-item:hover .unique-overlay {
   transform: translateY(0);
@@ -96,8 +138,9 @@ color: var(--black-color);
   font-weight: 400px;
   font-size: 14px;
   line-height: 1.28;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   color: var(--black-color);
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -105,7 +148,7 @@ color: var(--black-color);
     padding: 100px 0;
   }
   .unique-container {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     
@@ -158,23 +201,49 @@ order: -1;
  .unique-text{
     margin: 0 325px 50px;
  } 
+ .unique-list{
+  gap: 19px;
+  flex-wrap: nowrap;
+}
+
+.unique-item {
+  width: calc((100% - 56px) / 4);
+}
  .unique-m-ch{
   order: -1;
     }
     .uniqui-m{
-  order: 2;
+  order: 0;
     }
     .unique-n{
-  order: 3;
+  order: 1;
     }
     .unique-ch{
-  order: 4;
+  order: 2;
     }
-
-  .unique-item {
-    width: calc((100% - 96px) / 4);
-  }
+ 
   .unique-overlay {
     padding: 20px;
    }
+   .unique-wrapper{
+    width: 270px;
+   }
+   .unique-picture{
+    width: 206px;
+    height: 160px;
+    margin: 0 36px 36px 28px;
+    }
+    .unique-image{
+      margin: 0 36px 36px 28px;
+      width: 206px;
+      height: 160px;
+    }
+    .unique-overlay-text{
+      height: 162px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  .unique-overlay-text-ch{
+    height: 140px;
+  }
 }
