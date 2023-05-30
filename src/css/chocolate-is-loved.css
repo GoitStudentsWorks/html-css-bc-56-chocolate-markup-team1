@@ -1,5 +1,5 @@
 .chocolate-is-loved-section {
-  background-color: #e2e2e2;
+  background-color: var(--dark-white-color);
   padding-bottom: 128px;
   padding-top: 0;
   padding-left: 0;
@@ -30,7 +30,7 @@
   text-align: center;
   margin-right: 28px;
   height: 240px;
-  background-color: #e2e2e2;
+  background-color: var(--dark-white-color);
 }
 
 .chocolate-is-loved-cnt > img {
