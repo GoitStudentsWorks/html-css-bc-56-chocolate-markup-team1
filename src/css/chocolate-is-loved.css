@@ -1,3 +1,9 @@
+.general-container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
 .chocolate-is-loved-section {
   background-color: var(--dark-white-color);
   padding-bottom: 128px;
@@ -25,20 +31,32 @@
 }
 
 .chocolate-is-loved-slider {
+<<<<<<< Updated upstream
   list-style: none;
   margin: 0;
   padding: 0;
+=======
+  margin: 0 auto;
+>>>>>>> Stashed changes
 }
 
 .chocolate-is-loved-cnt {
   position: relative;
+<<<<<<< Updated upstream
   width: 335px;
 
+=======
+>>>>>>> Stashed changes
   text-align: center;
   margin-right: 28px;
   margin-bottom: 33px;
   height: 240px;
+<<<<<<< Updated upstream
   background-color: var(--dark-white-color);
+=======
+  background-color: #e2e2e2;
+  margin-bottom: 33px;
+>>>>>>> Stashed changes
 }
 
 .chocolate-is-loved-cnt > img {
@@ -139,7 +157,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .chocolate-is-loved-slider .slick-dots li {
