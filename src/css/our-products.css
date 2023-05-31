@@ -1,5 +1,5 @@
 .our-product {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
   background-color: #fafafa;
 }
 
@@ -31,22 +31,14 @@
   background-color: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   max-width: 335px;
-  }
+  padding: 32px 50px;
+}
 
 .our-product-img {
   margin-bottom: 8px;
 }
 
 .our-product-swiper {
-}
-.wrapper {
-}
-.list {
-}
-.our-product-swiper-wrapper {
-}
-
-.item {
 }
 
 .our-product-name-chocolate {
@@ -101,7 +93,7 @@
   }
 
   .our-product {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .our-product-swiper-slide {
@@ -111,7 +103,7 @@
 
 @media screen and (min-width: 1200px) {
   .our-product {
-    margin-bottom: 128px;
+    padding-bottom: 128px;
   }
 
   .our-product-swiper-slide {

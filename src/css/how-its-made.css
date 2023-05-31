@@ -9,11 +9,7 @@
 
 .how-its-made {
   background-color: #fafafa;
-}
-
-
-.how-its-made > .container {
-  padding-bottom: 128px;
+  padding-bottom: 72px;
 }
 
 .how-its-title {
@@ -56,6 +52,7 @@
   line-height: 1.33;
   color: #111111;
   max-width: 350px;
+  margin-bottom: 20px;
 }
 
 .how-its-list-item {
@@ -92,6 +89,14 @@
     padding-left: 16px;
   }
 
+  .how-its-title {
+    margin-bottom: 50px;
+  }
+
+  .how-its-made {
+    padding-bottom: 100px;
+  }
+
   .how-its-container {
     padding-left: 40px;
     padding-right: 40px;
@@ -123,6 +128,10 @@
 @media screen and (min-width: 1200px) {
   .how-its-frame-blc {
     width: 600px;
+  }
+
+  .how-its-made {
+    padding-bottom: 128px;
   }
 
   .how-its-text-title {
